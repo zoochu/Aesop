@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding: 1%;
+}
+
+header .left-menu li {
+  list-style: none;
+  float: left;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+header .right-menu li {
+  left: 1100px;
+  list-style: none;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+main .top {
+  background: #b6b49f;
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  margin: -100px 0px 0px;
+  padding: 175px 0px 400px;
+}
+
+main .top .left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .top .left h1 {
+  padding-left: 40px;
+  padding-top: 130px;
+  font-size: 45px;
+}
+
+main .top .left div {
+  padding-left: 110px;
+  margin: 0;
+}
+
+main .top .left div p {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+main .top .left div h2 {
+  padding: 0;
+  margin: 0 0 30px;
+  font-family: Suisse Regular,sans-serif;
+  font-weight: 400;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  font-size: 35px;
+}
+
+main .top .left div h4 {
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+main .top .left div button {
+  height: 55px;
+  padding: 1px 20px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: Suisse Medium,sans-serif;
+  background: #b6b49f;
+  font-size: 15px;
+}
+
+main .top .left div button:hover {
+  background: #333;
+  color: white;
+}
+
+main .top .right {
+  width: 50%;
+}
+
+main .top .right .background {
+  margin: -2800px 0px 0px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .top .right .outside {
+  position: relative;
+  height: 300px;
+  top: 250px;
+  left: 700px;
+}
+
+main .cosmetic {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  text-align: center;
+}
+
+main .cosmetic img {
+  width: 200px;
+}
+/*# sourceMappingURL=index.css.map */
